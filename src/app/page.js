@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <FirstName.Provider value="Dolan">
       <div className={styles.page}>
-        <h1>Demo Next Js App</h1>
+        <h1>Demo Next Js Application</h1>
         <A name="A" />
         <B name="B" />
         <C />
