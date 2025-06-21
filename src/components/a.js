@@ -1,7 +1,7 @@
 'use client';
 import react, { createContext, useState } from "react";
 import HOC from "./HOC";    
-const FirstName= createContext();
+// const FirstName= createContext();
 function A(props) {
     const { count, increment, name } = props;
     return (

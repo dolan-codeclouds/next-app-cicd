@@ -1,5 +1,5 @@
 'use client';
-import react, { useReducer, useState } from "react";
+import { useReducer } from "react";
 const intialState={count:0};    
 const reducer = (state,action)=>{
     switch(action.type){
